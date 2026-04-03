@@ -17,7 +17,7 @@ The Radio telescope will be made up of two systems.
 - Radio reciever  
   1.A Antenna  
   2.A Low noise amplifier  
-  3.A Software defined radio dongle capable of upto 1500 Mhz  
+  3.A Software defined radio dongle capable of 1420.405 Mhz (Hydrogen line) 
   4.A computer 
 
 
