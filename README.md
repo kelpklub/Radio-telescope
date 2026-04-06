@@ -13,11 +13,14 @@ The Radio telescope will be made up of two systems.
   2.Stepper motor 2x  
   3.Stepper motor driver board 2x  
   4.MPU6050 Gyroscope board  
-  5.A cheap tripod  
+  5.A cheap tripod
+  6.BreadBoard and wires for easy wiring 
 - Radio reciever  
   1.A Antenna  
   2.A Low noise amplifier  
-  3.A Software defined radio dongle capable of 1420.405 Mhz (Hydrogen line) 
-  4.A computer 
+  3.A Software defined radio dongle capable of 1420.405 Mhz (Hydrogen line)  
+  4.A computer  
+  5.SMA connectors.
+
 
 
