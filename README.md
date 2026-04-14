@@ -10,17 +10,18 @@ The Radio telescope will be made up of two systems.
 # Planned components
 - Mount  
   1.Arduino Uno  
-  2.Stepper motor 2x  
-  3.Stepper motor driver board 2x  
-  4.MPU6050 Gyroscope board  
-  5.A cheap tripod
-  6.BreadBoard and wires for easy wiring 
+  2.Stepper motor 2x(NEMA17)  
+  3.Stepper motor driver board 2x(DRV8825)  
+  4.MPU9250 Gyroscope board  
+  5.BreadBoard and wires for easy wiring 
 - Radio reciever  
   1.A Antenna  
   2.A Low noise amplifier  
-  3.A Software defined radio dongle capable of 1420.405 Mhz (Hydrogen line)  
+  3.A Software defined radio dongle (RTL-SDR)  
   4.A computer  
   5.SMA connectors.
+# Bill of Materials
+Heres everything you need for this project [BOM](BOM.csv)  
 
 
 
