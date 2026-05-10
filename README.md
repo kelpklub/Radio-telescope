@@ -26,7 +26,18 @@ Heres everything you need for this project. [Bill Of Materials](BOM.csv)
 The Basic Cad design Assembly Of the mount can be found at [CAD Radio Telescope](<Radio Telescope.step>)
 <img width="1920" height="1080" alt="CAD Assembly" src="https://github.com/user-attachments/assets/61eeb32e-ff1f-426d-9cc0-bc1dd4e0e6fb" />
 The Mount utilizes Gears to increase torque.
-<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1b288a7f-7db5-4c8e-81af-5256dfdb4b58" />
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1b288a7f-7db5-4c8e-81af-5256dfdb4b58" />  
+# Gear Ratio  
+The gear Ratios for both axes are as follows :-  
+For The Altitude Rotation - Input gear teeth = 16T ; Output gear teeth = 96T  
+For The Azimuth  Rotation - Input gear teeth = 24T ; Output gear teeth = 72T  
+# Basic Wiring  
+There are 6 diffrent component to be wired up. 1-ESP32, 1-MPU9250, 2-DRV8825, 2-NEMA17.  
+The wiring is as follows:-  
+<img width="1466" height="901" alt="image" src="https://github.com/user-attachments/assets/0213659c-8144-455a-8a74-45b98212438c" />  
+**MICROSTEPPING** - The M2 pin of both driver boards are connected to 3.3v of esp32 to set microstepping to 16 microsteps/second following the documentation of the drv8825 board.<img width="687" height="256" alt="microsteps-drv8825-snip" src="https://github.com/user-attachments/assets/cfb69f11-d256-4005-8756-5e025fe479bc" />
+**DRV8825 BOARD PROTECTION** - A 100µF Capacitor is wired across VMOT and GND to stabalize voltage and protect the board from damage.  
+**POWER SUPPLY** - An external powersupply of 12V is required for the two DRV8825 connected to VMOT of both driver.
 
 
 
