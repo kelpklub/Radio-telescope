@@ -1,4 +1,4 @@
-# Diy-Radio-telescope
+# TeleRad-A radio telescope  
 NOTE: This project is currently in its design phase. No physical prototype has been made yet.  
 A radio telescope mounted on an two axis alt-azimuth motorized mount for observing radio phenomenon.  
 # Overview 
